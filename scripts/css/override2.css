@@ -1,0 +1,4 @@
+.hand-container.iphone6-hand {
+    background: url(https://raw.githubusercontent.com/ayakix/Prott48te/master/images/hand-iphone6-2.png) center center no-repeat important!;
+    background-image: -webkit-image-set(url(https://raw.githubusercontent.com/ayakix/Prott48te/master/images/hand-iphone6-2.png) 1x, url(https://raw.githubusercontent.com/ayakix/Prott48te/master/images/hand-iphone6-2@2x.png) 2x) !important;
+}
