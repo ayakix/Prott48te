@@ -4,7 +4,7 @@
 ![ss](https://github.com/ayakix/Prott48te/raw/master/ss.png)
 
 ## 説明
-「四十八手 fro Prott」は，Prottのデモ画面の「手」を変更するGoogle Chrome Extensionです。
+「四十八手 for Prott」は，Prottのデモ画面の「手」を変更するGoogle Chrome Extensionです。
 変わったからなんだっつー話なんですけど、きっとアナタの利用シーンに見合った手が見つかるはず！<br>
 あと、仕事量の観点から四十八手は用意できませんでした。
 
