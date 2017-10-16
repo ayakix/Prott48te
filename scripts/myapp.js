@@ -25,13 +25,18 @@ $(window).load(function(){
 //      cssElem.remove();
     }
     cssElem = newCssElem;
+
     $.cookie(COOKIE_KEY_HAND_INDEX, handIndex, { expires: 30, path: '/' });
 
+    var handElem = $('.hand-container.iphone6-hand');
+    var deviceElem = $('.device-frame');
+    var prototypeElem = $('.prototype-menu');
+
     if (originMarginLeft == null) {
-      originMarginLeft = parseInt($('.hand-container.iphone6-hand').css('margin-left'), 10)
+      originMarginLeft = parseInt(handElem.css('margin-left'), 10)
     }
     if (originMarginTop == null) {
-      originMarginTop = parseInt($('.hand-container.iphone6-hand').css('margin-top'), 10)
+      originMarginTop = parseInt(handElem.css('margin-top'), 10)
     }
     var marginLeft = originMarginLeft;
     var marginTop = originMarginTop;
@@ -71,23 +76,24 @@ $(window).load(function(){
         break;
     }
 
-    $('.hand-container.iphone6-hand').css('margin-left', marginLeft);
-    $('.hand-container.iphone6-hand').css('margin-top', marginTop);
+    handElem.css('margin-left', marginLeft);
+    handElem.css('margin-top', marginTop);
 
     if (bringToBack) {
-      $('.hand-container.iphone6-hand').css('z-index', '998');
-      $('.device-frame').css('z-index', '999');
+      handElem.css('z-index', '998');
+      deviceElem.css('z-index', '999');
     } else if (bringToFront) {
-      $('.hand-container.iphone6-hand').css('z-index', '1000');
-      $('.prototype-menu').css('z-index', '999');
+      handElem.css('z-index', '1000');
+      prototypeElem.css('z-index', '999');
     } else {
-      $('.hand-container.iphone6-hand').css('z-index', '999');
-      $('.prototype-menu').css('z-index', '1000');
+      handElem.css('z-index', '999');
+      prototypeElem.css('z-index', '1000');
     }
   }
 
   function updateBgImage(bgIndex) {
-    $('.presentation-bg').css('background-image', 'url(https://github.com/ayakix/Prott48te/raw/master/images/background' + bgIndex + '.png)');
+    var path = chrome.extension.getURL('img/background' + bgIndex + '.png');
+    $('.presentation-bg').css('background-image', 'url(' + path + ')');
     $('.presentation-bg.blur').css('filter', 'blur(0px)');
     $.cookie(COOKIE_KEY_BG_INDEX, bgIndex, { expires: 30, path: '/' });
   }

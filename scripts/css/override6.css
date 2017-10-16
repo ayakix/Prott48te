@@ -1,4 +1,4 @@
 .hand-container.iphone6-hand {
-    background: url(https://raw.githubusercontent.com/ayakix/Prott48te/master/images/hand-iphone6-6.png) center center no-repeat important!;
-    background-image: -webkit-image-set(url(https://raw.githubusercontent.com/ayakix/Prott48te/master/images/hand-iphone6-6.png) 1x, url(https://raw.githubusercontent.com/ayakix/Prott48te/master/images/hand-iphone6-6@2x.png) 2x) !important;
+    background: url('chrome-extension://__MSG_@@extension_id__/img/hand-iphone6-6.png') center center no-repeat important!;
+    background-image: -webkit-image-set(url('chrome-extension://__MSG_@@extension_id__/img/hand-iphone6-6.png') 1x, url('chrome-extension://__MSG_@@extension_id__/img/hand-iphone6-6@2x.png') 2x) !important;
 }

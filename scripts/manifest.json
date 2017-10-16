@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "icons": { "48": "icon48.png", "128": "icon128.png" },
   "description": "「四十八手 fro Prott」は，Prottのデモ画面の「手」を変更するGoogle Chrome Extensionです。変わったからなんだっつー話なんですけど、きっとアナタの利用シーンに見合った手が見つかるはず！",
-  "web_accessible_resources": ["css/*.css"],
+  "web_accessible_resources": ["css/*.css", "img/*.png"],
   "content_scripts": [{
     "matches": ["https://prottapp.com/p/*"],
     "css": [],
