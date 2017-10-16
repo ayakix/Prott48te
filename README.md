@@ -9,11 +9,9 @@
 あと、仕事量の観点から四十八手は用意できませんでした。
 
 ## インストール方法
-1. [ファイルをダウンロードする](https://github.com/ayakix/Prott48te/raw/master/prott48te.crx)
-2. Chromeの環境設定から拡張機能を開く(検索バーに [chrome://extensions/](chrome://extensions/) と入力する)
-3. 拡張機能のページにダウンロードしたPrott-Hand-Image-Changer.crxをドラッグ・アンド・ドロップする
-4. Prottのデモを開く [デモサンプル](https://prottapp.com/p/b772c8#/s/59c50b5086e46542e83c6ec4)
-5. ナビゲーションにある手のボタンや背景画像のボタンを押して、画像を切り替える
+1. [Chromeストア](https://chrome.google.com/webstore/detail/%E5%9B%9B%E5%8D%81%E5%85%AB%E6%89%8B-fro-prott/hiicoilmbfbkjmfglkapjhcknogkmngp?hl=ja)にアクセスし、インストールする。
+2. Prottのデモを開く [デモサンプル](https://prottapp.com/p/b772c8#/s/59c50b5086e46542e83c6ec4)
+3. ナビゲーションにある手のボタンや背景画像のボタンを押して、画像を切り替える
 
 ![ss](https://github.com/ayakix/Prott48te/raw/master/howtouse.png)
 
