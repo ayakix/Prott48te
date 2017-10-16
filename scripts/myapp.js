@@ -87,7 +87,7 @@ $(window).load(function(){
   }
 
   function updateBgImage(bgIndex) {
-    $('.presentation-bg').css('background-image', 'url(https://github.com/ayakix/Prott-Hand-Image-Changer/raw/master/images/background' + bgIndex + '.png)');
+    $('.presentation-bg').css('background-image', 'url(https://github.com/ayakix/Prott48te/raw/master/images/background' + bgIndex + '.png)');
     $('.presentation-bg.blur').css('filter', 'blur(0px)');
     $.cookie(COOKIE_KEY_BG_INDEX, bgIndex, { expires: 30, path: '/' });
   }
